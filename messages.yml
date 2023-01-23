@@ -1,0 +1,27 @@
+messages:
+  general:
+    usage: "&cCorrect usage: /report (playerName)"
+  sent-to:
+    user-success:
+      - "&aYou have successfully reported %target% for the reason: %reason%"
+    user-cancel:
+      - "&cYou have canceled this report."
+    staffs:
+      - "&r "
+      - "&c&l¡NEW REPORT!"
+      - "&r "
+      - "&fReporter: &6%reporter%"
+      - "&fTarget: &6%target%"
+      - "&fReason: &6%reason%"
+      - "&fServer: &6%server%"
+      - "&r "
+  server-component:
+    text: "&6&o(Click here to go)"
+    hover: "&7Click here to go to the server."
+    command: "/server %server%"
+
+  player:
+    self-report: "&cYou can't report yourself"
+    no-reason: "&cYou need to specify a reason"
+    not-found: "&cThis player has not been found"
+    has-cooldown: "&cYou need to wait %time% to re-report."

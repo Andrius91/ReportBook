@@ -1,0 +1,10 @@
+config:
+  use-book: true
+  cooldown: 60 #In seconds
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  username: "root"
+  password: "root"
+  database: "funkyreports"
+  extra: "?useSSL=false&autoReconnect=true"

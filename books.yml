@@ -1,0 +1,17 @@
+books:
+  pre-report:
+    title: "Report book" #This is irrelevant
+    author: "FunkyReport" #This is irrelevant
+    pages: ["[\"\",
+    {\"text\":\"Report %target%%n%\"},{\"text\":\"%n%   ☢ Cheating (Hacking)\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/report %target% Cheating (Hacking) %book%\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"\",\"extra\":[{\"text\":\"Report %target% for Cheating\",\"color\":\"gray\"}]}}},
+    {\"text\":\"%n%   ☢ Flood/Spam\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/report %target% Flood/Spam %book%\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"\",\"extra\":[{\"text\":\"Report a %target% for Flood/Spam\",\"color\":\"gray\"}]}}},
+    {\"text\":\"%n%   ☢ Advertisement\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/report %target% Advertisement %book%\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"\",\"extra\":[{\"text\":\"Report %target% for Advertisement\",\"color\":\"gray\"}]}}},
+    {\"text\":\"%n%   ☢ Toxic\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/report %target% Toxic %book%\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"\",\"extra\":[{\"text\":\"Report a %target% for Toxic\",\"color\":\"gray\"}]}}},
+    {\"text\":\"%n%   ☢ Bad name\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/report %target% Bad name %book%\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"\",\"extra\":[{\"text\":\"Report a %target% por Bad name\",\"color\":\"gray\"}]}}}]"]
+  success-report:
+    title: "Report book" #This is irrelevant
+    author: "FunkyReport" #This is irrelevant
+    pages: ["[\"\",
+    {\"text\":\"You're about to report %target% for %reason%\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"\"}},
+    {\"text\":\"%n%%n%%n%Submit Report\",\"color\":\"dark_green\",\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/report %target% %reason%\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"\",\"extra\":[{\"text\":\"Click here to confirm!\",\"color\":\"green\"}]}}},
+    {\"text\":\"%n%Cancel Report\",\"color\":\"red\",\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/cancelreport\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"\",\"extra\":[{\"text\":\"Click here to cancel\",\"color\":\"red\"}]}}}]"]
